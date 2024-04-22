@@ -13,7 +13,6 @@ const binarySearchString=`function iterativeBinarySearch(arr, x) {
         else if (arr[mid] < x) start = mid + 1;
         else end = mid - 1;
     }
-
     return false;
 }`;
 const cmd=`Logoff:
